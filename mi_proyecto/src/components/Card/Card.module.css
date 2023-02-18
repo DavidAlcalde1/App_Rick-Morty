@@ -1,0 +1,52 @@
+.img{
+    display: center; 
+    justify-content: space-between;
+    border-radius: 0.5rem; 
+    margin-top: 2rem; 
+    transition: transform 400s;
+    
+}
+
+.img:hover{
+    transform: rotateY(360turn)
+}
+
+.div{
+    display:inline-block;
+    position: relative;
+    background-image: linear-gradient(to right, #f60, rgb(247, 179, 106));
+    border-radius: 0.5rem ;
+    box-shadow: 0 0 10px rgba(183, 248, 192, 0.934);
+        
+}
+
+.button{
+    display:flex;
+    right: 0;
+    position:absolute;
+    margin: 0.3rem;
+    background-color: red;
+    color: white;
+    border-color: rgb(109, 2, 2);
+    border-width: .1rem;
+    border-radius: .2rem;
+}
+
+
+.name{
+    background-color: rgba(22, 21, 21) ;
+    color:white;
+    display:flexbox;
+    opacity: 0.7;
+    position: absolute;
+    top: 270px;
+    left: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.divSpecGen{
+    display: flex;
+    justify-content:space-around;
+    font-family:Arial, Helvetica, sans-serif;
+}
